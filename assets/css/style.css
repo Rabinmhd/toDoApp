@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -------------Theme settings start------------------------------ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    line-height: 1.4;
+    transition: all 0.2s ease;
+    overflow-x: hidden !important;
+    font-family: "Exo", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif !important;
+}
+
+h1 {
+    font-size: 54px !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+}
+
+
+
+body {
+    background-color: #25B3E8;
+    padding: 0 10px;
+}
+
+.mob-container {
+    position: relative;
+    background-color: rgb(54, 54, 54);
+    max-width: 480px;
+    margin: 50px auto;
+    border-radius: 5px;
+    /* padding: 15px 15px; */
+    height: 100vh;
+
+
+}
+
+
+.game1 {
+    margin-bottom: 8px;
+    /* opacity: auto; */
+}
+
+.game2 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    opacity: auto;
+}
+
+/* Style for the iframe container */
+.mob-container {
+    position: relative;
+    background-color: rgb(6 79 105);
+    max-width: 460px;
+    margin: 50px auto;
+    border-radius: 5px;
+    /* padding: 15px 15px; */
+    height: 100%;
+    margin-top: 10px;
+    /* border: 0.5px solid #818181; */
+    /* border: 1px solid #fff; */
+}
+
+.game_list {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    /* Set maximum width for the game_list container */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 5px;
+    /* Add padding for space */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+    overflow: hidden;
+}
+
+.game_list :last-child {
+    margin-bottom: 0;
+}
+
+/* Close button style */
+
+
+body {
+    overflow: auto;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #0a779e;
+}
+
+
+
+
+
+
+
+.game1 {
+   padding: 10px;
+   background-color: #FFF;
+}
+
+.game1 {
+    background-color: aqua;
+}
+.game2 {
+    background-color: bisque;
+}
+.game3{
+    background-color: rgb(123, 219, 147);
+}
+
+
+/* -------------Theme settings end------------------------------ */
